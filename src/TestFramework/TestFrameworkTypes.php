@@ -51,6 +51,8 @@ final class TestFrameworkTypes
 
     public const CODECEPTION = 'codeception';
 
+    public const TESTO = 'testo';
+
     /**
      * @var string[]
      */
@@ -58,6 +60,7 @@ final class TestFrameworkTypes
         self::PHPUNIT,
         self::PHPSPEC,
         self::CODECEPTION,
+        self::TESTO,
     ];
 
     /**
